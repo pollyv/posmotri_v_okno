@@ -1,3 +1,4 @@
 # posmotri_v_okno
-Проект "Посмотри в окно"
+
+Проектная работа 2 - "Посмотри в окно"
 https://github.com/pollyv/posmotri_v_okno.git
