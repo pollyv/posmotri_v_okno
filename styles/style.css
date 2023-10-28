@@ -124,13 +124,9 @@ ol {
   outline: 1px solid #fff;
 }
 
-.search-form__label:has(:focus-visible) {
-  outline: 1px solid #fff;
-}
-
 .search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -146,6 +142,15 @@ ol {
   display: flex;
   flex-direction: row;
   gap: 5px;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
+}
+
+.search-form__label:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .visually-hidden {
@@ -176,12 +181,8 @@ ol {
   background-color: #fff;
 }
 
-.search-form__label:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 .button {
+  height: 34px;
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
@@ -191,6 +192,8 @@ ol {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  appearance: none;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -211,8 +214,6 @@ ol {
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
-  cursor: pointer;
 }
 
 .content__details {
@@ -319,6 +320,4 @@ ol {
 
 .more-button {
   width: 399px;
-  height: 34px;
-  cursor: pointer;
 }
