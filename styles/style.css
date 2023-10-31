@@ -148,7 +148,7 @@ ol {
   outline: 1px solid #fff;
 }
 
-.search-form__label:hover {
+.search-form__label:has(.search-form__checkbox):hover {
   text-decoration: underline;
   cursor: pointer;
 }
